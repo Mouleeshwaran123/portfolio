@@ -38,6 +38,6 @@ import { ContactComponent } from './components/contact/contact.component';
   `,
 })
 export class AppComponent {
-  isDarkMode = false;
+  isDarkMode = true;
   toggleDarkMode() { this.isDarkMode = !this.isDarkMode; }
 }
